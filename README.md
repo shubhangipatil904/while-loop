@@ -1,1 +1,36 @@
 # while-loop
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+namespace CSharp_Shell
+{
+
+    public class Program 
+    {
+        public static void Main()
+        {
+			Console.WriteLine("Enter Number");
+			int n = Convert.ToInt32(Console.ReadLine());
+			int i=1;
+			
+				while (i <= n)
+				{
+					Console.WriteLine("Hello");
+					i++;
+				}
+        	
+        }
+    }
+}
+Output:-
+
+Enter Number
+6
+Hello
+Hello
+Hello
+Hello
+Hello
+Hello
